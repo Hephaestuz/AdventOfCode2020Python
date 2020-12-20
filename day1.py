@@ -33,7 +33,7 @@ def part2(sorted_ints):
 
 
 if __name__ == '__main__':
-    expense_report = read_file_to_list_of_ints('puzzle_input.txt')
+    expense_report = read_file_to_list_of_ints('day1_input.txt')
     expense_report.sort()
     part1(expense_report)
     part2(expense_report)
